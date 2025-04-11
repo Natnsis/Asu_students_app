@@ -1,8 +1,56 @@
-import { View, Text, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { View, Text, TextInput, StyleSheet, TouchableOpacity, Alert } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Link } from 'expo-router';
 
-export default function Index() {
+export default function Notes() {
+  const [title, setTitle] = useState('');
+  const [content, setContent] = useState('');
+  const [notes, setNotes] = useState([]);
+
+  // Load notes from AsyncStorage on component mount
+  useEffect(() => {
+    const loadNotes = async () => {
+      try {
+        const storedNotes = await AsyncStorage.getItem('notes');
+        if (storedNotes) {
+          setNotes(JSON.parse(storedNotes));
+        }
+      } catch (error) {
+        console.error('Error loading notes:', error);
+      }
+    };
+
+    loadNotes();
+  }, []);
+
+  // Save a new note
+  const saveNote = async () => {
+    if (!title.trim() || !content.trim()) {
+      Alert.alert('Error', 'Both title and content are required.');
+      return;
+    }
+
+    const newNote = { id: Date.now(), title, content };
+    const updatedNotes = [...notes, newNote];
+    setNotes(updatedNotes);
+
+    try {
+      await AsyncStorage.setItem('notes', JSON.stringify(updatedNotes));
+      Alert.alert('Success', 'Note saved successfully!');
+      setTitle('');
+      setContent('');
+    } catch (error) {
+      console.error('Error saving note:', error);
+    }
+  };
+
+  // Clear the input fields
+  const clearInputs = () => {
+    setTitle('');
+    setContent('');
+  };
+
   return (
     <View style={styles.container}>
       {/* Header */}
@@ -19,6 +67,8 @@ export default function Index() {
         style={styles.titleInput}
         placeholder="Enter Title"
         placeholderTextColor="#888"
+        value={title}
+        onChangeText={setTitle}
       />
 
       {/* Text Area for Larger Info */}
@@ -28,22 +78,22 @@ export default function Index() {
         placeholderTextColor="#888"
         multiline
         numberOfLines={6}
+        value={content}
+        onChangeText={setContent}
       />
 
+      {/* Buttons */}
       <View style={styles.buttonContainer}>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>
-            Save 
-          </Text>
+        <TouchableOpacity style={styles.button} onPress={saveNote}>
+          <Text style={styles.buttonText}>Save</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>
-            Cancel
-          </Text>
+        <TouchableOpacity style={styles.button} onPress={clearInputs}>
+          <Text style={styles.buttonText}>Cancel</Text>
         </TouchableOpacity>
       </View>
 
+      {/* View All Notes Button */}
       <TouchableOpacity style={styles.buttonShow}>
         <Link href="(inner)/notes" style={styles.buttonText}>
           View all notes
@@ -70,7 +120,7 @@ const styles = StyleSheet.create({
   description: {
     fontSize: 16,
     color: '#555',
-    textAlign:"center"
+    textAlign: 'center',
   },
   titleInput: {
     height: 40,
@@ -87,15 +137,15 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     paddingHorizontal: 10,
     paddingVertical: 10,
-    textAlignVertical: 'top', 
+    textAlignVertical: 'top',
     backgroundColor: '#f9f9f9',
-    height: 200, 
+    height: 200,
   },
   buttonContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginTop: 20,
-    alignItems:"center"
+    alignItems: 'center',
   },
   button: {
     backgroundColor: '#007BFF',
@@ -104,17 +154,17 @@ const styles = StyleSheet.create({
     width: '48%',
     alignItems: 'center',
   },
-  buttonText:{
+  buttonText: {
     color: 'white',
     fontSize: 16,
     fontWeight: 'bold',
   },
-  buttonShow:{
+  buttonShow: {
     backgroundColor: '#007BFF',
     padding: 12,
     borderRadius: 8,
     width: '100%',
     alignItems: 'center',
     marginTop: 10,
-  }
+  },
 });

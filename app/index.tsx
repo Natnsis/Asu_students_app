@@ -5,7 +5,7 @@ import React from 'react';
 const index = () => {
   return (
     <View style={styles.all}>
-      <Text style={styles.title}>NSB-APP</Text>
+      <Text style={styles.title}>ASA-STUDENTS</Text>
       <View style={styles.imageContainer}>
         <Image
             source={require('../assets/images/icon.png')}
@@ -30,7 +30,7 @@ const index = () => {
 
       <View style={styles.descriptionContainer}>
         <Text style={styles.description}>
-            NSB is a University app built solely to help new students get used to their surrounding and senior students have an easier life with their daily life.
+            Assosa Students is a University app built solely to help new students get used to their surrounding and senior students have an easier life with their daily life.
         </Text>
       </View>
 

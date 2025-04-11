@@ -1,17 +1,28 @@
-import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity, Linking, Alert } from 'react-native';
 import React from 'react';
 import { FontAwesome } from '@expo/vector-icons'; // Use FontAwesome for all icons
 
 export default function Index() {
   const groups = [
-    { name: 'Tech Enthusiasts', description: 'Computer Science Department', icon: 'telegram' },
-    { name: 'Business Minds', description: 'Business Administration Department', icon: 'whatsapp' },
-    { name: 'Art Lovers', description: 'Fine Arts Department', icon: 'facebook' },
-    { name: 'Health Advocates', description: 'Health Science Department', icon: 'telegram' },
-    { name: 'Eco Warriors', description: 'Environmental Science Department', icon: 'whatsapp' },
-    { name: 'Registrar System', description: 'Connect to a local network', icon: 'link' },
-    { name: 'Orthodox', description: '4th year orthodox students', icon: 'telegram' },
+    { name: 'Registrar System', description: 'Connect to a local network', icon: 'link', link: 'http://10.16.8.72' },
+    { name: 'Assosa university Website', description: 'Business Administration Department', icon: 'link', link: 'https://t.me/asuremedial'},
+    { name: 'Assosa Gibi Guaye', description: '4th year orthodox students', icon: 'telegram', link: 'https://asu.edu.et/' },
+    { name: 'Asu Students Union', description: 'Computer Science Department', icon: 'telegram', link: 'https://t.me/Asu_StudentUnion' },
+    { name: 'Informatics', description: 'IT, IS and Cs Department', icon: 'telegram', link: 'https://t.me/yyyy2346' },
+    { name: 'Health Advocates', description: 'Health Science Department', icon: 'telegram', link: 'https://t.me/healthadvocates' },
+    { name: 'ASU Muslim Students', description: 'Environmental Science Department', icon: 'telegram', link: 'https://https://t.me/AssosaUniversityMuslimStudents' },
+    { name: 'Business Minds', description: 'Business Administration Department', icon: 'telegram', link: 'https://chat.whatsapp.com/businessminds' },
+    { name: 'Assosa University', description: 'Business Administration Department', icon: 'telegram', link: 'https://t.me/assosauniversitygroup' },
+    { name: 'ASU Remidial Students', description: 'Business Administration Department', icon: 'telegram', link: 'https://t.me/asuremedial'},
   ];
+
+  // Function to open a link
+  const openLink = (link) => {
+    Linking.openURL(link).catch((err) => {
+      console.error("Failed to open link:", err);
+      Alert.alert("Error", "Unable to open the link.");
+    });
+  };
 
   return (
     <View style={styles.container}>
@@ -28,7 +39,7 @@ export default function Index() {
               <Text style={styles.groupName}>{item.name}</Text>
               <Text style={styles.groupDescription}>{item.description}</Text>
             </View>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => openLink(item.link)}>
               {item.icon === 'telegram' && (
                 <FontAwesome name="telegram" size={24} color="#0088cc" />
               )}

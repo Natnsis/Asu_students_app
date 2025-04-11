@@ -1,4 +1,4 @@
-import { ScrollView, View, Text, TextInput, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { ScrollView, View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import React from 'react';
 import { MaterialIcons } from '@expo/vector-icons'; // Import MaterialIcons for icons
 import { Link } from 'expo-router';
@@ -6,14 +6,9 @@ import { Link } from 'expo-router';
 export default function Index() {
   return (
     <ScrollView style={styles.container}>
-      {/* Header with Explore and Search Input */}
+      {/* Header with Explore */}
       <View style={styles.header}>
         <Text style={styles.exploreText}>Explore</Text>
-        <TextInput
-          style={styles.searchInput}
-          placeholder="Search..."
-          placeholderTextColor="#888"
-        />
       </View>
 
       {/* all the rest of the content */}
@@ -136,9 +131,9 @@ export default function Index() {
           </Text>
         </View>
 
-        {/* barber shop and saloons */}
+        {/* barber shop  */}
         <View style={styles.contentContainer}>
-          <Text style={styles.title}>barber shop and saloons</Text>
+          <Text style={styles.title}>Barber Shop </Text>
           <View>
             <Image 
               source={require('../../../assets/images/favicon.png')}
@@ -183,15 +178,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     marginRight: 10,
-  },
-  searchInput: {
-    flex: 1,
-    height: 40,
-    borderWidth: 1,
-    borderColor: '#ccc',
-    borderRadius: 8,
-    paddingHorizontal: 10,
-    backgroundColor: 'white',
   },
   contentContainer: {
     padding: 10,

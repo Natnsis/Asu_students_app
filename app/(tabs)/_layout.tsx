@@ -7,7 +7,7 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: 'blue',
-        tabBarInactiveTintColor: 'lightblue', // Fixed typo: 'light-blue' to 'lightblue'
+        tabBarInactiveTintColor: 'lightblue',
         headerShown: false,
       }}
     >
