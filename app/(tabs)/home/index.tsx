@@ -1,6 +1,7 @@
 import { Text, View, StyleSheet, ScrollView, Image, TouchableOpacity, Linking, Alert } from "react-native";
 import { MaterialIcons } from '@expo/vector-icons'; 
 import * as Clipboard from 'expo-clipboard'; 
+import { Link } from "expo-router";
 
 export default function Index() {
   // Telegram group link
@@ -34,15 +35,15 @@ export default function Index() {
 
         {/* Buttons to go straight to inner links */}
         <TouchableOpacity style={styles.greenButton}>
-          <Text style={styles.buttonText}>Notes</Text>
+          <Link href="../(inner)/notes" style={styles.buttonText}>Notes</Link>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.greenButton}>
-          <Text style={styles.buttonText}>Cafe Schedule</Text>
+          <Link href="../(inner)/tableCafe" style={styles.buttonText}>Cafe Schedule</Link>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.greenButton}>
-          <Text style={styles.buttonText}>Class Schedule</Text>
+          <Link href="../(inner)/tableClass" style={styles.buttonText}>Class Schedule</Link>
         </TouchableOpacity>
 
         {/* tabs description content */}
