@@ -32,6 +32,19 @@ export default function Index() {
           Checkout all the Available features and services this app can provide.
         </Text>
 
+        {/* Buttons to go straight to inner links */}
+        <TouchableOpacity style={styles.greenButton}>
+          <Text style={styles.buttonText}>Notes</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.greenButton}>
+          <Text style={styles.buttonText}>Cafe Schedule</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.greenButton}>
+          <Text style={styles.buttonText}>Class Schedule</Text>
+        </TouchableOpacity>
+
         {/* tabs description content */}
         <View style={styles.tabsInfoContainer}>
 
@@ -145,7 +158,18 @@ const styles = StyleSheet.create({
     textAlign: "center",
     color:"#A9A9A9"
   },
-  
+  greenButton: {
+    backgroundColor: 'green',
+    padding: 12,
+    borderRadius: 8,
+    marginVertical: 10,
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
   tabsInfoContainer:{
     marginTop:15,
     padding:5
@@ -160,13 +184,11 @@ const styles = StyleSheet.create({
     fontFamily:"Noto Serif",
     color:"green",
     fontWeight:"medium"
-    
   },
   tabDescription:{
     backgroundColor:"#F0F0F0",
     padding:12,
     borderRadius:12,
-    
   },
   footerData:{
     textAlign:"center",
