@@ -28,7 +28,7 @@ export default function Index() {
         style={styles.image}
       />
       <View style={styles.content}>
-        <Text style={styles.title}>Welcome to ASA Students app</Text>
+        <Text  className="text-4xl text-blue-500">Welcome to ASA Students app</Text>
         <Text style={styles.body}>
           Checkout all the Available features and services this app can provide.
         </Text>
