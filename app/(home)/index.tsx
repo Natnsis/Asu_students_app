@@ -10,7 +10,6 @@ export default function Page() {
 
   return (
     <View className="bg-backlight flex-1 ">
-     
       <Ionicons name="menu" size={36} color="black" />
       <SignedIn>
         <Text>Hello {user?.emailAddresses[0].emailAddress}</Text>
