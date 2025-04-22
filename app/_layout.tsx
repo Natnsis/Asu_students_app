@@ -7,7 +7,11 @@ import React from 'react';
 export default function RootLayoutNav() {
   return (
     <ClerkProvider tokenCache={tokenCache}>
-      <Stack />
+      <Stack
+        screenOptions={{
+          headerShown: false,
+        }}
+      />
     </ClerkProvider>
   );
 }
