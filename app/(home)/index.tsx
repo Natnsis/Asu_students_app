@@ -1,4 +1,4 @@
-import { SignedIn, SignedOut, useUser } from '@clerk/clerk-expo';
+import { SignedIn, useUser } from '@clerk/clerk-expo';
 import { Link, useRouter } from 'expo-router';
 import { Text, View } from 'react-native';
 import { SignOutButton } from '../components/SignOutButton';
@@ -7,66 +7,71 @@ import React ,{  useEffect, useState }from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
-///TODO: USE AYNC STORAGE TO FETCH CREDENTIALS
 export default function Page() {
   const { user } = useUser();
   const router = useRouter();
-  const [hasCredentials, setHasCredentials] = useState(null);
-  const [localFirstName, setLocalFirstName] = useState(''); // State for first name from AsyncStorage
+  const [localFirstName, setLocalFirstName] = useState(''); 
+  const [localDepartment, setLocalDepartment] = useState(''); 
+  const [year, setyear] = useState(''); 
+  const [id, setId] = useState('');
 
   useEffect(() => {
-    const checkCredentials = async () => {
+    const userData = async () => {
       try {
         const credentials = await AsyncStorage.getItem('asuCredentials');
-        setHasCredentials(credentials !== null);
         if (credentials) {
           const parsedCredentials = JSON.parse(credentials);
-          setLocalFirstName(parsedCredentials?.fullName?.split(' ')[0] || ''); // Extract first name
+          setLocalFirstName(parsedCredentials?.fullName?.split(' ')[0] || ''); 
+          setLocalDepartment(parsedCredentials?.department); 
+          setyear(parsedCredentials?.year); 
+          setId(parsedCredentials?.studentId); 
         }
       } catch (error) {
         console.error('Error checking credentials:', error);
-        setHasCredentials(false);
       }
     };
 
-    checkCredentials();
+    userData();
   }, []);
-
-  useEffect(() => {
-    if (user && hasCredentials === false) {
-      router.replace('/setup');
-    } else if (user && hasCredentials === true) {
-      router.replace('/home');
-    }
-  }, [user, hasCredentials, router]);
-
-  if (hasCredentials === null) {
-    return (
-      <View className="bg-backlight flex-1 justify-center items-center">
-        <Text>Checking setup...</Text>
-      </View>
-    );
-  }
-
+  
   return (
-    <View className="bg-backlight flex-1 p-6">
-      <View className="flex-row justify-between items-center mb-4">
-        <Ionicons name="menu" size={36} color="black" />
-        <SignedIn>
-          <Text>
-            Hello {localFirstName || user?.firstName || user?.emailAddresses[0]?.emailAddress}
-          </Text>
-          <SignOutButton />
-        </SignedIn>
-        <SignedOut>
-          <Link href="/(auth)/sign-in">
-            <Text>Sign in</Text>
-          </Link>
-          <Link href="/(auth)/sign-up">
-            <Text>Sign up</Text>
-          </Link>
-        </SignedOut>
+    <SignedIn>
+      <View className="bg-ash flex-1">
+        <View className='flex-row w-full bg-back justify-between pt-5 px-2 pb-5 text-center'>
+          <View className='flex-row gap-3'>
+            <Ionicons name="menu" size={36} color="black" />
+            <Text className='w-[60vw] text-2xl font-extrabold capitalize'>Asu Students App</Text>
+          </View>
+          <View className='w-[20vw] bg-primary py-2 pl-2 rounded mr-2'>
+            <SignOutButton />
+          </View>
+        </View>
+
+
+        <View className="px-4 mt-5">
+          <View className='bg-back p-5 rounded-2xl '>
+            <Text className='w-fit text-2xl capitalize font-extrabold'>
+              Welcome Back, {localFirstName}!
+            </Text>
+            <Text className='font-mono text-second mt-3 text-lg'>
+              Track your academic progress and campus life all in one place
+            </Text>
+            <View className='flex-row justify-between items-center my-5 '>
+              <Text className='bg-primary w-[15vw] text-center text-back py-1 px-1 rounded-full'>
+                {localDepartment}
+              </Text>
+              <Text className='bg-primary w-[30vw] text-center text-back py-1 px-1 rounded-full'>
+                {id}
+              </Text>
+              <Text className='bg-primary w-[25vw] text-center text-back py-1 px-1 rounded-full'>
+                year: {year}
+              </Text>
+            </View>
+          </View>
+        </View>
+
+
       </View>
-    </View>
+    </SignedIn>
   );
 }

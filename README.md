@@ -1,24 +1,38 @@
-# Welcome to your Expo app 👋
+# Welcome to asu students app👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a react native mobile app am planning to build to assist assosa university students in their day to day life 
 
-## Get started
+### The app v1.0 will be released after finishing the core functionalities
+i hope it will give you a great experience😊
 
-1. Install dependencies
+## check out its current state
+
+1. clone the repository
 
    ```bash
-   npm install
+   git clone <link>
    ```
 
-2. Start the app
+2. install necessary dependencies
+
+   ```bash
+    npm install
+   ```
+
+3. download the expo go app from either play store or app store 
+
+   ```bash
+    expo go
+   ```
+
+4. run the code (connect your phone and the pc with the same network)
 
    ```bash
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+5. scan the QR code from the terminal then press r to reload the app  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+    r
+   ```
