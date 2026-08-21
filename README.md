@@ -1,7 +1,6 @@
 # Welcome to asu students app👋
 
-This is a react native mobile app am planning to build to assist assosa university students in their day to day life 
-
+This is a react native mobile app am planning to build to assist assosa university 
 ### The app v1.0 will be released after finishing the core functionalities
 i hope it will give you a great experience😊
 
