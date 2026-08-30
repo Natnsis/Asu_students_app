@@ -1,37 +1,17 @@
-# Welcome to asu students app👋
+# students_app
 
-This is a react native mobile app am planning to build to assist assosa university 
-### The app v1.0 will be released after finishing the core functionalities
-i hope it will give you a great experience😊
+A new Flutter project.
 
-## check out its current state
+## Getting Started
 
-1. clone the repository
+This project is a starting point for a Flutter application.
 
-   ```bash
-   git clone <link>
-   ```
+A few resources to get you started if this is your first Flutter project:
 
-2. install necessary dependencies
+- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-   ```bash
-    npm install
-   ```
-
-3. download the expo go app from either play store or app store 
-
-   ```bash
-    expo go
-   ```
-
-4. run the code (connect your phone and the pc with the same network)
-
-   ```bash
-    npx expo start
-   ```
-
-5. scan the QR code from the terminal then press r to reload the app  
-
-   ```bash
-    r
-   ```
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
