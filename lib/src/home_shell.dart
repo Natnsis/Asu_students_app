@@ -109,7 +109,7 @@ class _TabBar extends StatelessWidget {
                 child: Container(
                   padding: const EdgeInsets.fromLTRB(2, 9, 2, 7),
                   decoration: BoxDecoration(
-                    color: current == t.id ? const Color(0xFF3A332A) : Colors.transparent,
+                    color: current == t.id ? const Color(0xFF2A332B) : Colors.transparent,
                     borderRadius: BorderRadius.circular(19),
                   ),
                   child: Column(
@@ -118,14 +118,14 @@ class _TabBar extends StatelessWidget {
                       Icon(
                         current == t.id ? t.activeIcon : t.icon,
                         size: 19,
-                        color: current == t.id ? kButter : const Color(0xFF8E8375),
+                        color: current == t.id ? kButter : const Color(0xFF7E8B80),
                       ),
                       const SizedBox(height: 5),
                       Text(
                         t.label,
                         style: body(10,
                             weight: FontWeight.w700,
-                            color: current == t.id ? kButter : const Color(0xFF8E8375)),
+                            color: current == t.id ? kButter : const Color(0xFF7E8B80)),
                       ),
                     ],
                   ),

@@ -24,16 +24,16 @@ class ImageSlot extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final shape = circle
-        ? BoxDecoration(color: tint ?? const Color(0xFFEFE6D6), shape: BoxShape.circle)
+        ? BoxDecoration(color: tint ?? const Color(0xFFE7EFE0), shape: BoxShape.circle)
         : BoxDecoration(
-            color: tint ?? const Color(0xFFEFE6D6),
+            color: tint ?? const Color(0xFFE7EFE0),
             borderRadius: BorderRadius.circular(radius),
           );
     return Container(
       width: width,
       height: height,
       decoration: shape.copyWith(
-        border: Border.all(color: const Color(0x22211C17)),
+        border: Border.all(color: const Color(0x221B231F)),
       ),
       alignment: Alignment.center,
       child: Column(

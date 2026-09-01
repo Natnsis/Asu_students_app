@@ -47,7 +47,7 @@ class Place {
   final List<MenuEntry> menu;
 
   Color get busyColor =>
-      busyN > 75 ? kAccent : (busyN > 50 ? const Color(0xFF8A6A16) : const Color(0xFF4A6B45));
+      busyN > 75 ? kPinkInk : (busyN > 50 ? const Color(0xFF3A6B33) : const Color(0xFF4A6B45));
 }
 
 const kPlaces = <Place>[
@@ -79,7 +79,7 @@ const kPlaces = <Place>[
     busy: 'Busy · 78%',
     busyN: 78,
     hours: '07:00 – 19:00',
-    tint: kPink,
+    tint: kMint,
     long:
         'Cheapest macchiato within walking distance, and the only place with sockets at every table.',
     where: 'Science Block courtyard',
@@ -137,7 +137,7 @@ const kPlaces = <Place>[
     busy: 'Packed · 92%',
     busyN: 92,
     hours: 'Meals 07:00 / 12:00 / 18:00',
-    tint: kPink,
+    tint: kMint,
     long:
         'The university cafeteria. Fixed weekly menu, student card only, queue moves fast after the first 20 minutes.',
     where: 'Main Hall, east entrance',
@@ -246,7 +246,7 @@ const kDepartments = <Department>[
   Department(
     id: 'med',
     name: 'Medicine',
-    color: kPink,
+    color: kMint,
     years: '6 years',
     load: '240 credits',
     cutoff: 'Entry 590+',
@@ -308,7 +308,7 @@ class ClassSlot {
   final Color color;
 }
 
-const _cOrg = Color(0xFFC9502F);
+const _cOrg = Color(0xFF0E7A54);
 const kSchedule = <String, List<ClassSlot>>{
   'Mon': [
     ClassSlot('08:30', '10:00', 'Discrete Mathematics', 'A-118', 'Dr. Yared', 'Lecture', kPeri),
@@ -545,7 +545,7 @@ class Collection {
 }
 
 const kCollections = <Collection>[
-  Collection('grad', 'Graduation 2024', kPink, 'Alumni Office',
+  Collection('grad', 'Graduation 2024', kMint, 'Alumni Office',
       'Six hundred graduates across two days. Full-resolution downloads open to the class.'),
   Collection('comp', 'Competitions', kPeriTint, 'Clubs & departments',
       'Robotics, debate, bridges. Every entry from this academic year.'),
@@ -624,10 +624,10 @@ class Hub {
 const kHubs = <Hub>[
   Hub('h1', 'CS Year 2 — Official', 'Telegram · 412 members · notes & past papers', kPeriTint, 'CS2'),
   Hub('h2', 'Quiet Study Buddies', 'Telegram · 96 members · no small talk allowed', kSageTint, 'QSB'),
-  Hub('h3', 'UniCore Photography', 'Instagram · 1.2k · campus shoots every Sunday', kPink, 'PHO'),
+  Hub('h3', 'UniCore Photography', 'Instagram · 1.2k · campus shoots every Sunday', kMint, 'PHO'),
   Hub('h4', 'Housing & Roommates', 'Telegram · 780 members · verified listings', kButterTint, 'HSE'),
   Hub('h5', 'Women in Engineering', 'WhatsApp · 240 members · mentorship pairs', kPeriTint, 'WIE'),
-  Hub('h6', 'Freshers 2016 E.C.', 'Telegram · 1.5k members · ask anything, anonymously', kPink, 'NEW'),
+  Hub('h6', 'Freshers 2016 E.C.', 'Telegram · 1.5k members · ask anything, anonymously', kMint, 'NEW'),
 ];
 
 class ChatMsg {
@@ -644,7 +644,7 @@ class ChatThread {
 }
 
 const kChats = <ChatThread>[
-  ChatThread('c1', 'Meron A.', 'MA', kPink, '09:12', 'did you finish the graph lab?', [
+  ChatThread('c1', 'Meron A.', 'MA', kMint, '09:12', 'did you finish the graph lab?', [
     ChatMsg(false, 'did you finish the graph lab?', '09:10'),
     ChatMsg(true, 'BFS part yes, Dijkstra no', '09:11'),
     ChatMsg(false, 'same. library at 4? silent wing, no talking, just sitting', '09:12'),
@@ -675,16 +675,16 @@ const kAnnouncements = <Announcement>[
       kPink, Color(0xFFF0BCA9), Color(0xFF9E3B1D)),
   Announcement('Library', 'Today', 'Silent Wing closes early Saturday',
       'Electrical maintenance from 14:00. Engineering Reading Room stays open until 20:00 as usual.',
-      kCard, kLine, Color(0xFF3B45A8)),
+      kCard, kLine, Color(0xFF0F5E4A)),
   Announcement('Student Services', 'Yesterday', 'Cafeteria cards recharge online now',
       'No more queueing at Window 3. Recharge through the app or any bank app using your student ID as reference.',
       kCard, kLine, Color(0xFF4A6B45)),
   Announcement('CS Department', '2 days ago', 'Data Structures II mid-exam: Mar 29',
       'Covers trees through hashing. Open notes, no laptops. Room assignments posted on the Block B noticeboard Thursday.',
-      kButterTint, Color(0xFFEBD59B), Color(0xFF7A5B10)),
+      kButterTint, Color(0xFFDBE7C2), Color(0xFF2F5C29)),
   Announcement('Health Centre', '3 days ago', 'Free counselling slots, no referral needed',
       'Walk in Mon–Thu 09:00–16:00, or book anonymously through the app. Twenty-minute first sessions.',
-      kCard, kLine, Color(0xFF3B45A8)),
+      kCard, kLine, Color(0xFF0F5E4A)),
 ];
 
 class NewsItem {
@@ -727,9 +727,9 @@ const kMyReports = <MyReport>[
   MyReport('4417', 'Facilities', 'Fixed',
       'Broken window in Lab 2 — rain gets onto the desks nearest the wall.', kSageTint, Color(0xFF2F5C29)),
   MyReport('4402', 'Safety', 'In review',
-      'No lighting on the path between Block C and the south gate after 19:00.', kButterTint, Color(0xFF7A5B10)),
+      'No lighting on the path between Block C and the south gate after 19:00.', kButterTint, Color(0xFF2F5C29)),
   MyReport('4388', 'Cafeteria', 'Answered',
-      'Fasting tray ran out before 13:00 three Wednesdays in a row.', kPeriTint, Color(0xFF3B45A8)),
+      'Fasting tray ran out before 13:00 three Wednesdays in a row.', kPeriTint, Color(0xFF0F5E4A)),
 ];
 
 class NotifGo {
@@ -766,7 +766,7 @@ const kNotifs = <NotifItem>[
     title: 'Meron A. sent you a message',
     body: '“library at 4? silent wing, no talking, just sitting”',
     tint: kPeriTint,
-    kindColor: Color(0xFF3B45A8),
+    kindColor: Color(0xFF0F5E4A),
     unread: true,
     icon: Icons.chat_bubble_outline,
     go: NotifGo('chat', chatId: 'c1'),
@@ -777,8 +777,8 @@ const kNotifs = <NotifItem>[
     when: '2h',
     title: 'Add/drop closes Friday 5:00 PM',
     body: 'Registrar · late forms need a dean signature.',
-    tint: kPink,
-    kindColor: Color(0xFF9E3B1D),
+    tint: kMint,
+    kindColor: Color(0xFF0F5E4A),
     unread: true,
     icon: Icons.notifications_none,
     go: NotifGo('announcements'),
@@ -802,7 +802,7 @@ const kNotifs = <NotifItem>[
     title: 'Career Fair starts in 2 days',
     body: 'Thu 09:00, Main Hall. Three firms take Year 2 interns.',
     tint: kButterTint,
-    kindColor: Color(0xFF7A5B10),
+    kindColor: Color(0xFF2F5C29),
     unread: false,
     icon: Icons.event_outlined,
     go: NotifGo('post', postKind: 'event', postId: 'e1'),
@@ -826,7 +826,7 @@ const kNotifs = <NotifItem>[
     title: 'Hackathon Team · 3 new messages',
     body: '“perfect. Sat 18:00, Lab 4”',
     tint: kPeriTint,
-    kindColor: Color(0xFF3B45A8),
+    kindColor: Color(0xFF0F5E4A),
     unread: false,
     icon: Icons.chat_bubble_outline,
     go: NotifGo('chat', chatId: 'c2'),
@@ -838,7 +838,7 @@ const kNotifs = <NotifItem>[
     title: 'Quiet Study Marathon — 74 going',
     body: 'Sun 10:00, Silent Wing. No introductions, no icebreakers.',
     tint: kButterTint,
-    kindColor: Color(0xFF7A5B10),
+    kindColor: Color(0xFF2F5C29),
     unread: false,
     icon: Icons.event_outlined,
     go: NotifGo('post', postKind: 'event', postId: 'e3'),
@@ -849,8 +849,8 @@ const kNotifs = <NotifItem>[
     when: '3 days',
     title: 'Free counselling slots, no referral',
     body: 'Health Centre · walk in Mon–Thu, or book anonymously.',
-    tint: kPink,
-    kindColor: Color(0xFF9E3B1D),
+    tint: kMint,
+    kindColor: Color(0xFF0F5E4A),
     unread: false,
     icon: Icons.notifications_none,
     go: NotifGo('announcements'),
@@ -934,10 +934,10 @@ class MeRow {
 }
 
 const kMeRows = <MeRow>[
-  MeRow('Notifications', 'Chats, events, galleries, offices', kPink, Icons.notifications_none, 'notifs'),
+  MeRow('Notifications', 'Chats, events, galleries, offices', kMint, Icons.notifications_none, 'notifs'),
   MeRow('Announcements', 'From offices you follow', kPeriTint, Icons.campaign_outlined, 'announcements'),
   MeRow('University news', 'Reading hall, grants, football', kPeriTint, Icons.article_outlined, 'news'),
   MeRow('Departments', 'Compare before you switch', kSageTint, Icons.account_balance_outlined, 'departments'),
   MeRow('My courses', 'CS · 5 this semester', kButterTint, Icons.menu_book_outlined, 'dept', deptId: 'cs'),
-  MeRow('My reports', '1 in review, 1 fixed', kPink, Icons.flag_outlined, 'criticism'),
+  MeRow('My reports', '1 in review, 1 fixed', kMint, Icons.flag_outlined, 'criticism'),
 ];

@@ -20,14 +20,14 @@ class _Wordmark extends StatelessWidget {
         Container(
           width: box,
           height: box,
-          alignment: Alignment.center,
           decoration: BoxDecoration(
-            color: onDark ? kButter : kInk,
             borderRadius: BorderRadius.circular(9),
+            border: Border.all(
+              color: onDark ? const Color(0x33FFFFFF) : const Color(0x221B231F),
+            ),
           ),
-          child: Text('U',
-              style: display(small ? 14 : 15,
-                  weight: FontWeight.w800, color: onDark ? kInk : kButter)),
+          clipBehavior: Clip.antiAlias,
+          child: Image.asset('assets/imgs/uni_logo.png', fit: BoxFit.cover),
         ),
         const SizedBox(width: 9),
         Text('UniCore',
@@ -75,7 +75,7 @@ class WelcomeScreen extends StatelessWidget {
                   const SizedBox(height: 16),
                   Text(
                     'Courses, departments, cafeteria, libraries, grades and the people — without having to ask anyone for directions.',
-                    style: body(15, color: const Color(0xFFC7BCAC), height: 1.6),
+                    style: body(15, color: const Color(0xFFB6C4BA), height: 1.6),
                   ),
                   const SizedBox(height: 26),
                   PillButton(label: 'Get started', onTap: s.startOnboard),
@@ -85,7 +85,7 @@ class WelcomeScreen extends StatelessWidget {
                     onTap: s.goAuth,
                     bg: Colors.transparent,
                     fg: kCream,
-                    border: const Color(0xFF4A4238),
+                    border: const Color(0xFF2F3A31),
                   ),
                 ],
               ),
@@ -176,7 +176,7 @@ class OnboardScreen extends StatelessWidget {
                           height: 7,
                           width: on ? 22 : 7,
                           decoration: BoxDecoration(
-                            color: on ? kInk : const Color(0xFFD3C6B2),
+                            color: on ? kInk : const Color(0xFFC9D3C6),
                             borderRadius: BorderRadius.circular(999),
                           ),
                         );
@@ -276,7 +276,7 @@ class AuthScreen extends StatelessWidget {
                 Text(
                   'Only registrar-verified IDs get in. Nobody outside the university can see your profile.',
                   textAlign: TextAlign.center,
-                  style: body(12, color: const Color(0xFFA2957F), height: 1.5),
+                  style: body(12, color: const Color(0xFF8B988C), height: 1.5),
                 ),
               ],
             ),
@@ -325,7 +325,7 @@ class _Field extends StatelessWidget {
               contentPadding: const EdgeInsets.only(top: 6),
               border: InputBorder.none,
               hintText: hint,
-              hintStyle: body(16, weight: FontWeight.w600, color: const Color(0xFFBCae9b)),
+              hintStyle: body(16, weight: FontWeight.w600, color: const Color(0xFFAAB6AB)),
             ),
           ),
         ],
@@ -462,7 +462,7 @@ class _DeptPick extends StatelessWidget {
                   const SizedBox(height: 3),
                   Text('${dept.years} · ${dept.load}',
                       style: body(12.5,
-                          color: selected ? const Color(0xB3F7EFE3) : kMuted)),
+                          color: selected ? const Color(0xB3F6F1E7) : kMuted)),
                 ],
               ),
             ),

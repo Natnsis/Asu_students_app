@@ -172,7 +172,7 @@ class _DeptDetailOverlay extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text('${d.years} · ${d.load}'.toUpperCase(),
-                  style: eyebrow(const Color(0xA6211C17), size: 11, spacing: 1.7)),
+                  style: eyebrow(const Color(0xA61B231F), size: 11, spacing: 1.7)),
               const SizedBox(height: 6),
               Text(d.name, style: display(24, weight: FontWeight.w700, height: 1.15)),
               const SizedBox(height: 8),
@@ -232,7 +232,7 @@ class _DeptDetailOverlay extends StatelessWidget {
                     Container(
                       padding: const EdgeInsets.only(top: 10),
                       decoration: const BoxDecoration(
-                        border: Border(top: BorderSide(color: Color(0xFFF0E5D4))),
+                        border: Border(top: BorderSide(color: Color(0xFFE8F0DF))),
                       ),
                       child: Text(c.desc, style: body(13, color: kMutedInk, height: 1.55)),
                     ),
@@ -396,7 +396,7 @@ class _CafeteriaOverlay extends StatelessWidget {
             decoration: BoxDecoration(
               color: i == 0 ? kButterTint : kCard,
               borderRadius: BorderRadius.circular(24),
-              border: Border.all(color: i == 0 ? const Color(0xFFEBD59B) : kLine),
+              border: Border.all(color: i == 0 ? const Color(0xFFDBE7C2) : kLine),
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -409,8 +409,8 @@ class _CafeteriaOverlay extends StatelessWidget {
                       Text(kWeek[i].tag.toUpperCase(),
                           style: eyebrow(
                               kWeek[i].tag == 'Fasting'
-                                  ? const Color(0xFF3B45A8)
-                                  : const Color(0xFF7A5B10),
+                                  ? const Color(0xFF0F5E4A)
+                                  : const Color(0xFF2F5C29),
                               size: 10.5,
                               spacing: 1.1)),
                   ],
@@ -502,7 +502,7 @@ class _ScheduleOverlay extends StatelessWidget {
                     children: [
                       Text(c.start, style: display(15, weight: FontWeight.w800)),
                       const SizedBox(height: 2),
-                      Text(c.end, style: body(11, color: const Color(0xFFA2957F))),
+                      Text(c.end, style: body(11, color: const Color(0xFF8B988C))),
                     ],
                   ),
                 ),
@@ -596,9 +596,9 @@ class _PostOverlay extends StatelessWidget {
     }
 
     final reactionDefs = [
-      ('heart', '♥', baseHeartOrGoing, const Color(0xFFC9502F), kPink),
-      ('clap', '✦', 46, const Color(0xFF7A5B10), kButterTint),
-      ('proud', '★', 22, const Color(0xFF3B45A8), kPeriTint),
+      ('heart', '♥', baseHeartOrGoing, const Color(0xFF0E7A54), kPink),
+      ('clap', '✦', 46, const Color(0xFF2F5C29), kButterTint),
+      ('proud', '★', 22, const Color(0xFF0F5E4A), kPeriTint),
     ];
     final rx = s.reactions[id] ?? const {};
     final comments = s.commentsFor(id, baseComments);
@@ -711,7 +711,7 @@ class _CommentRow extends StatelessWidget {
                           style: body(13, weight: FontWeight.w700)),
                     ),
                     Text(comment.when,
-                        style: body(11, color: const Color(0xFFA2957F))),
+                        style: body(11, color: const Color(0xFF8B988C))),
                   ],
                 ),
                 const SizedBox(height: 4),
@@ -865,7 +865,7 @@ class _CodeOverlay extends StatelessWidget {
                     for (final v in kQr)
                       Container(
                         decoration: BoxDecoration(
-                          color: v == 1 ? kCream : const Color(0xFF3A332A),
+                          color: v == 1 ? kCream : const Color(0xFF2A332B),
                           borderRadius: BorderRadius.circular(3),
                         ),
                       ),
@@ -1097,7 +1097,7 @@ class _NotifRow extends StatelessWidget {
         decoration: BoxDecoration(
           color: unread ? kCard : Colors.transparent,
           borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: unread ? const Color(0xFFE3D2BA) : kLine),
+          border: Border.all(color: unread ? const Color(0xFFD9E3CE) : kLine),
         ),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -1123,7 +1123,7 @@ class _NotifRow extends StatelessWidget {
                             style: eyebrow(notif.kindColor, size: 10.5, spacing: 1.2)),
                       ),
                       Text(notif.when,
-                          style: body(11, color: const Color(0xFFA2957F))),
+                          style: body(11, color: const Color(0xFF8B988C))),
                     ],
                   ),
                   const SizedBox(height: 5),
@@ -1178,7 +1178,7 @@ class _AnnouncementsOverlay extends StatelessWidget {
                       child: Text(a.from.toUpperCase(),
                           style: eyebrow(a.fromColor, size: 10.5, spacing: 1.2)),
                     ),
-                    Text(a.when, style: body(11.5, color: const Color(0xFFA2957F))),
+                    Text(a.when, style: body(11.5, color: const Color(0xFF8B988C))),
                   ],
                 ),
                 const SizedBox(height: 7),
@@ -1339,7 +1339,7 @@ class _CriticismOverlay extends StatelessWidget {
                   padding: const EdgeInsets.all(3),
                   alignment: s.anon ? Alignment.centerRight : Alignment.centerLeft,
                   decoration: BoxDecoration(
-                    color: s.anon ? kSage : const Color(0xFFD9CFBE),
+                    color: s.anon ? kSage : const Color(0xFFCFD9CD),
                     borderRadius: BorderRadius.circular(999),
                   ),
                   child: Container(

@@ -16,10 +16,10 @@ class HomeTab extends StatelessWidget {
   static const _quickActions = [
     QuickAction('Departments', kPeriTint, Icons.account_balance_outlined),
     QuickAction('Courses', kButterTint, Icons.menu_book_outlined),
-    QuickAction('Cafe menu', kPink, Icons.restaurant_outlined),
+    QuickAction('Cafe menu', kMint, Icons.restaurant_outlined),
     QuickAction('Library', kSageTint, Icons.local_library_outlined),
     QuickAction('GPA', kPeriTint, Icons.leaderboard_outlined),
-    QuickAction('Report', kPink, Icons.report_gmailerrorred_outlined),
+    QuickAction('Report', kButterTint, Icons.report_gmailerrorred_outlined),
   ];
 
   void _runQuick(AppState s, String label) {
@@ -125,7 +125,7 @@ class HomeTab extends StatelessWidget {
                             weight: FontWeight.w700, color: kCream, height: 1.15, letterSpacing: -0.5)),
                     const SizedBox(height: 6),
                     Text('10:00 – 11:30 · Block B, Room 204 · Dr. Alemu',
-                        style: body(13.5, color: const Color(0xFFC7BCAC))),
+                        style: body(13.5, color: const Color(0xFFB6C4BA))),
                     const SizedBox(height: 16),
                     Row(
                       children: [
@@ -149,7 +149,7 @@ class HomeTab extends StatelessWidget {
                             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 11),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(14),
-                              border: Border.all(color: const Color(0xFF4A4238)),
+                              border: Border.all(color: const Color(0xFF2F3A31)),
                             ),
                             child: Text('Find a room',
                                 style: body(13.5, weight: FontWeight.w600, color: kCream)),
@@ -218,13 +218,13 @@ class HomeTab extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text('SELF CAFE · LUNCH TODAY',
-                          style: eyebrow(const Color(0xFF7A5B10), size: 11, spacing: 1.7)),
+                          style: eyebrow(const Color(0xFF2F5C29), size: 11, spacing: 1.7)),
                       const SizedBox(height: 5),
                       Text('Shiro, injera & salad',
                           style: display(20, weight: FontWeight.w700, height: 1.2)),
                       const SizedBox(height: 4),
                       Text('Served 12:00 – 14:00 · see the whole week',
-                          style: body(13, color: const Color(0xFF6B5416))),
+                          style: body(13, color: const Color(0xFF2F5C29))),
                     ],
                   ),
                 ),
@@ -240,7 +240,7 @@ class HomeTab extends StatelessWidget {
             action: 'All events', onAction: s.openEventsTab),
         const SizedBox(height: 12),
         SizedBox(
-          height: 200,
+          height: 236,
           child: ListView.separated(
             scrollDirection: Axis.horizontal,
             itemCount: kEvents.length.clamp(0, 3),
@@ -260,22 +260,31 @@ class HomeTab extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const ImageSlot(height: 112, width: double.infinity, radius: 0, label: 'Event photo'),
-                      Padding(
-                        padding: const EdgeInsets.fromLTRB(14, 12, 14, 14),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(ev.when.toUpperCase(),
-                                style: eyebrow(kAccent, size: 11, spacing: 1.1)),
-                            const SizedBox(height: 5),
-                            Text(ev.title,
-                                maxLines: 2,
-                                overflow: TextOverflow.ellipsis,
-                                style: body(14.5, weight: FontWeight.w700, height: 1.25)),
-                            const SizedBox(height: 4),
-                            Text(ev.place, style: body(12.5, color: kMuted)),
-                          ],
+                      const ImageSlot(height: 104, width: double.infinity, radius: 0, label: 'Event photo'),
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.fromLTRB(14, 12, 14, 14),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(ev.when.toUpperCase(),
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: eyebrow(kAccent, size: 11, spacing: 1.1)),
+                              const SizedBox(height: 5),
+                              Text(ev.title,
+                                  maxLines: 2,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: body(14.5, weight: FontWeight.w700, height: 1.25)),
+                              const SizedBox(height: 4),
+                              Flexible(
+                                child: Text(ev.place,
+                                    maxLines: 1,
+                                    overflow: TextOverflow.ellipsis,
+                                    style: body(12.5, color: kMuted)),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ],
@@ -312,7 +321,7 @@ class HomeTab extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: Colors.white, borderRadius: BorderRadius.circular(14)),
                   child: Text('Browse 24 hubs',
-                      style: body(13.5, weight: FontWeight.w700, color: const Color(0xFF3B45A8))),
+                      style: body(13.5, weight: FontWeight.w700, color: const Color(0xFF0F5E4A))),
                 ),
               ),
             ],
@@ -328,7 +337,7 @@ class HomeTab extends StatelessWidget {
             decoration: BoxDecoration(
               color: kCard,
               borderRadius: BorderRadius.circular(22),
-              border: Border.all(color: const Color(0xFFD9B9A8)),
+              border: Border.all(color: const Color(0xFFBED7C4)),
             ),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -450,11 +459,11 @@ class CampusTab extends StatelessWidget {
                           style: body(15, weight: FontWeight.w700, color: kCream)),
                       const SizedBox(height: 2),
                       Text("Know what you're eating Mon–Sun",
-                          style: body(12.5, color: const Color(0xFFC7BCAC))),
+                          style: body(12.5, color: const Color(0xFFB6C4BA))),
                     ],
                   ),
                 ),
-                const Icon(Icons.chevron_right, color: Color(0xFFC7BCAC)),
+                const Icon(Icons.chevron_right, color: Color(0xFFB6C4BA)),
               ],
             ),
           ),
@@ -711,7 +720,7 @@ class AcademicsTab extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(s.solverLead,
-                        style: body(13.5, color: const Color(0xFFC7BCAC), height: 1.5)),
+                        style: body(13.5, color: const Color(0xFFB6C4BA), height: 1.5)),
                     const SizedBox(height: 4),
                     Text(s.solverValue,
                         style: display(38,
@@ -720,7 +729,7 @@ class AcademicsTab extends StatelessWidget {
                             letterSpacing: -1.1)),
                     const SizedBox(height: 6),
                     Text(s.solverNote,
-                        style: body(13, color: const Color(0xFFC7BCAC), height: 1.5)),
+                        style: body(13, color: const Color(0xFFB6C4BA), height: 1.5)),
                   ],
                 ),
               ),
@@ -844,7 +853,7 @@ class AcademicsTab extends StatelessWidget {
                     ],
                   ),
                 ),
-                const Icon(Icons.chevron_right, color: Color(0xFFB0A493)),
+                const Icon(Icons.chevron_right, color: Color(0xFF9BA89D)),
               ],
             ),
           ),
@@ -898,7 +907,7 @@ class _RoundStep extends StatelessWidget {
         decoration: BoxDecoration(
           color: kCard,
           shape: BoxShape.circle,
-          border: Border.all(color: const Color(0xFFE7DAC6)),
+          border: Border.all(color: const Color(0xFFDEE7D6)),
         ),
         child: Text(glyph, style: body(15, weight: FontWeight.w700)),
       ),
@@ -966,7 +975,7 @@ class _CourseRowTile extends StatelessWidget {
             onTap: onRemove,
             child: const Padding(
               padding: EdgeInsets.only(left: 6),
-              child: Icon(Icons.close, size: 15, color: Color(0xFFB0A493)),
+              child: Icon(Icons.close, size: 15, color: Color(0xFF9BA89D)),
             ),
           ),
         ],
@@ -990,7 +999,7 @@ class _SquareStep extends StatelessWidget {
         decoration: BoxDecoration(
           color: kCard,
           borderRadius: BorderRadius.circular(7),
-          border: Border.all(color: const Color(0xFFE7DAC6)),
+          border: Border.all(color: const Color(0xFFDEE7D6)),
         ),
         child: Text(glyph, style: body(13, weight: FontWeight.w700)),
       ),
@@ -1103,7 +1112,7 @@ class SocialTab extends StatelessWidget {
         Container(
           padding: const EdgeInsets.all(5),
           decoration: BoxDecoration(
-            color: const Color(0xFFEFE4D3),
+            color: const Color(0xFFE6EEDE),
             borderRadius: BorderRadius.circular(999),
           ),
           child: Row(
@@ -1259,7 +1268,7 @@ class SocialTab extends StatelessWidget {
                           Text(ev.place, style: body(12.5, color: kMuted)),
                           const SizedBox(height: 8),
                           Text('${ev.going} going',
-                              style: body(12, weight: FontWeight.w700, color: const Color(0xFF5C6ED9))),
+                              style: body(12, weight: FontWeight.w700, color: const Color(0xFF2E8F77))),
                         ],
                       ),
                     ),
@@ -1303,7 +1312,7 @@ class SocialTab extends StatelessWidget {
                                 style: body(14.5, weight: FontWeight.w700)),
                           ),
                           const SizedBox(width: 8),
-                          Text(c.time, style: body(11.5, color: const Color(0xFFA2957F))),
+                          Text(c.time, style: body(11.5, color: const Color(0xFF8B988C))),
                         ],
                       ),
                       const SizedBox(height: 3),
@@ -1535,7 +1544,7 @@ class MeTab extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const Icon(Icons.chevron_right, size: 18, color: Color(0xFFB0A493)),
+                  const Icon(Icons.chevron_right, size: 18, color: Color(0xFF9BA89D)),
                 ],
               ),
             ),
@@ -1558,7 +1567,7 @@ class MeTab extends StatelessWidget {
                 const SizedBox(height: 7),
                 Text(
                   "File it to the right office — anonymously if you want. You'll still see the status.",
-                  style: body(13.5, color: const Color(0xFFC7BCAC), height: 1.5),
+                  style: body(13.5, color: const Color(0xFFB6C4BA), height: 1.5),
                 ),
                 const SizedBox(height: 14),
                 Container(

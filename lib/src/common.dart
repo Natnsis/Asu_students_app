@@ -185,7 +185,7 @@ class RoundIconButton extends StatelessWidget {
         decoration: BoxDecoration(
           color: bg,
           shape: BoxShape.circle,
-          border: Border.all(color: const Color(0xFFE7DAC6)),
+          border: Border.all(color: const Color(0xFFDEE7D6)),
         ),
         child: Icon(icon, size: size * 0.42, color: fg),
       ),
@@ -272,7 +272,7 @@ class _PulseDotState extends State<PulseDot> with SingleTickerProviderStateMixin
 
 /// Avatar bubble with initials.
 class InitialsAvatar extends StatelessWidget {
-  const InitialsAvatar(this.initials, {super.key, this.size = 44, this.tint = kPink, this.fg = kPinkInk});
+  const InitialsAvatar(this.initials, {super.key, this.size = 44, this.tint = kMint, this.fg = kForest});
   final String initials;
   final double size;
   final Color tint;
