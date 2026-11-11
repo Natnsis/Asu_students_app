@@ -1,0 +1,3299 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+      - "/bin/"
+    searched_directories:
+      - "/home/nati/.local/share/mise/installs/claude/latest/uname"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/uname"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/uname"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/uname"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/uname"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/uname"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/uname"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/uname"
+      - "/home/nati/.local/share/mise/shims/uname"
+      - "/home/nati/flutter/bin/uname"
+      - "/home/nati/.local/bin/uname"
+      - "/usr/share/omarchy/bin/uname"
+      - "/home/nati/.cargo/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 7.2.8-9-omarchy - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    searched_directories:
+      - "/home/nati/.local/share/mise/installs/claude/latest/ninja-build"
+      - "/home/nati/.local/share/mise/installs/claude/latest/ninja"
+      - "/home/nati/.local/share/mise/installs/claude/latest/samu"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/ninja-build"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/ninja"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/samu"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/ninja-build"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/ninja"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/samu"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/ninja-build"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/ninja"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/samu"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/ninja-build"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/ninja"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/samu"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/ninja-build"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/ninja"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/samu"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/ninja-build"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/ninja"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/samu"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/ninja-build"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/ninja"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/samu"
+      - "/home/nati/.local/share/mise/shims/ninja-build"
+      - "/home/nati/.local/share/mise/shims/ninja"
+      - "/home/nati/.local/share/mise/shims/samu"
+      - "/home/nati/flutter/bin/ninja-build"
+      - "/home/nati/flutter/bin/ninja"
+      - "/home/nati/flutter/bin/samu"
+      - "/home/nati/.local/bin/ninja-build"
+      - "/home/nati/.local/bin/ninja"
+      - "/home/nati/.local/bin/samu"
+      - "/usr/share/omarchy/bin/ninja-build"
+      - "/usr/share/omarchy/bin/ninja"
+      - "/usr/share/omarchy/bin/samu"
+      - "/home/nati/.cargo/bin/ninja-build"
+      - "/home/nati/.cargo/bin/ninja"
+      - "/home/nati/.cargo/bin/samu"
+      - "/usr/local/sbin/ninja-build"
+      - "/usr/local/sbin/ninja"
+      - "/usr/local/sbin/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/bin/ninja-build"
+    found: "/usr/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/usr/bin/clang++"
+    candidate_directories:
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    found: "/usr/bin/clang++"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/CMakeFiles/4.4.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    found: "/usr/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    found: "/usr/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    found: "/usr/bin/llvm-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    found: "/usr/bin/ld.lld"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    found: "/usr/bin/llvm-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    found: "/usr/bin/llvm-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    found: "/usr/bin/llvm-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    found: "/usr/bin/llvm-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    found: "/usr/bin/llvm-dlltool"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    found: "/usr/bin/llvm-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/nati/.local/share/mise/installs/claude/latest/tapi"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/tapi"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/tapi"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/tapi"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/tapi"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/tapi"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/tapi"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/tapi"
+      - "/home/nati/.local/share/mise/shims/tapi"
+      - "/home/nati/flutter/bin/tapi"
+      - "/home/nati/.local/bin/tapi"
+      - "/usr/share/omarchy/bin/tapi"
+      - "/home/nati/.cargo/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/tapi"
+      - "/usr/lib/jvm/default/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+      - "/opt/rocm/bin/tapi"
+      - "/home/nati/.opencode/bin/tapi"
+      - "/opt/android-sdk/platform-tools/tapi"
+      - "/opt/android-sdk/emulator/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-23.1"
+      - "llvm-ar-23"
+      - "llvm-ar23"
+      - "llvm-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    searched_directories:
+      - "/usr/bin/llvm-ar-23.1"
+      - "/home/nati/.local/share/mise/installs/claude/latest/llvm-ar-23.1"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/llvm-ar-23.1"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/llvm-ar-23.1"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/llvm-ar-23.1"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/llvm-ar-23.1"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/llvm-ar-23.1"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/llvm-ar-23.1"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/llvm-ar-23.1"
+      - "/home/nati/.local/share/mise/shims/llvm-ar-23.1"
+      - "/home/nati/flutter/bin/llvm-ar-23.1"
+      - "/home/nati/.local/bin/llvm-ar-23.1"
+      - "/usr/share/omarchy/bin/llvm-ar-23.1"
+      - "/home/nati/.cargo/bin/llvm-ar-23.1"
+      - "/usr/local/sbin/llvm-ar-23.1"
+      - "/usr/local/bin/llvm-ar-23.1"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/llvm-ar-23.1"
+      - "/usr/lib/jvm/default/bin/llvm-ar-23.1"
+      - "/usr/bin/site_perl/llvm-ar-23.1"
+      - "/usr/bin/vendor_perl/llvm-ar-23.1"
+      - "/usr/bin/core_perl/llvm-ar-23.1"
+      - "/opt/rocm/bin/llvm-ar-23.1"
+      - "/home/nati/.opencode/bin/llvm-ar-23.1"
+      - "/opt/android-sdk/platform-tools/llvm-ar-23.1"
+      - "/opt/android-sdk/emulator/llvm-ar-23.1"
+      - "/usr/bin/llvm-ar-23"
+      - "/home/nati/.local/share/mise/installs/claude/latest/llvm-ar-23"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/llvm-ar-23"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/llvm-ar-23"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/llvm-ar-23"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/llvm-ar-23"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/llvm-ar-23"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/llvm-ar-23"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/llvm-ar-23"
+      - "/home/nati/.local/share/mise/shims/llvm-ar-23"
+      - "/home/nati/flutter/bin/llvm-ar-23"
+      - "/home/nati/.local/bin/llvm-ar-23"
+      - "/usr/share/omarchy/bin/llvm-ar-23"
+      - "/home/nati/.cargo/bin/llvm-ar-23"
+      - "/usr/local/sbin/llvm-ar-23"
+      - "/usr/local/bin/llvm-ar-23"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/llvm-ar-23"
+      - "/usr/lib/jvm/default/bin/llvm-ar-23"
+      - "/usr/bin/site_perl/llvm-ar-23"
+      - "/usr/bin/vendor_perl/llvm-ar-23"
+      - "/usr/bin/core_perl/llvm-ar-23"
+      - "/opt/rocm/bin/llvm-ar-23"
+      - "/home/nati/.opencode/bin/llvm-ar-23"
+      - "/opt/android-sdk/platform-tools/llvm-ar-23"
+      - "/opt/android-sdk/emulator/llvm-ar-23"
+      - "/usr/bin/llvm-ar23"
+      - "/home/nati/.local/share/mise/installs/claude/latest/llvm-ar23"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/llvm-ar23"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/llvm-ar23"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/llvm-ar23"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/llvm-ar23"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/llvm-ar23"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/llvm-ar23"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/llvm-ar23"
+      - "/home/nati/.local/share/mise/shims/llvm-ar23"
+      - "/home/nati/flutter/bin/llvm-ar23"
+      - "/home/nati/.local/bin/llvm-ar23"
+      - "/usr/share/omarchy/bin/llvm-ar23"
+      - "/home/nati/.cargo/bin/llvm-ar23"
+      - "/usr/local/sbin/llvm-ar23"
+      - "/usr/local/bin/llvm-ar23"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/llvm-ar23"
+      - "/usr/lib/jvm/default/bin/llvm-ar23"
+      - "/usr/bin/site_perl/llvm-ar23"
+      - "/usr/bin/vendor_perl/llvm-ar23"
+      - "/usr/bin/core_perl/llvm-ar23"
+      - "/opt/rocm/bin/llvm-ar23"
+      - "/home/nati/.opencode/bin/llvm-ar23"
+      - "/opt/android-sdk/platform-tools/llvm-ar23"
+      - "/opt/android-sdk/emulator/llvm-ar23"
+    found: "/usr/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-23.1"
+      - "llvm-ranlib-23"
+      - "llvm-ranlib23"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    searched_directories:
+      - "/usr/bin/llvm-ranlib-23.1"
+      - "/home/nati/.local/share/mise/installs/claude/latest/llvm-ranlib-23.1"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/llvm-ranlib-23.1"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/llvm-ranlib-23.1"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/llvm-ranlib-23.1"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/llvm-ranlib-23.1"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/llvm-ranlib-23.1"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/llvm-ranlib-23.1"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/llvm-ranlib-23.1"
+      - "/home/nati/.local/share/mise/shims/llvm-ranlib-23.1"
+      - "/home/nati/flutter/bin/llvm-ranlib-23.1"
+      - "/home/nati/.local/bin/llvm-ranlib-23.1"
+      - "/usr/share/omarchy/bin/llvm-ranlib-23.1"
+      - "/home/nati/.cargo/bin/llvm-ranlib-23.1"
+      - "/usr/local/sbin/llvm-ranlib-23.1"
+      - "/usr/local/bin/llvm-ranlib-23.1"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/llvm-ranlib-23.1"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib-23.1"
+      - "/usr/bin/site_perl/llvm-ranlib-23.1"
+      - "/usr/bin/vendor_perl/llvm-ranlib-23.1"
+      - "/usr/bin/core_perl/llvm-ranlib-23.1"
+      - "/opt/rocm/bin/llvm-ranlib-23.1"
+      - "/home/nati/.opencode/bin/llvm-ranlib-23.1"
+      - "/opt/android-sdk/platform-tools/llvm-ranlib-23.1"
+      - "/opt/android-sdk/emulator/llvm-ranlib-23.1"
+      - "/usr/bin/llvm-ranlib-23"
+      - "/home/nati/.local/share/mise/installs/claude/latest/llvm-ranlib-23"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/llvm-ranlib-23"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/llvm-ranlib-23"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/llvm-ranlib-23"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/llvm-ranlib-23"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/llvm-ranlib-23"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/llvm-ranlib-23"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/llvm-ranlib-23"
+      - "/home/nati/.local/share/mise/shims/llvm-ranlib-23"
+      - "/home/nati/flutter/bin/llvm-ranlib-23"
+      - "/home/nati/.local/bin/llvm-ranlib-23"
+      - "/usr/share/omarchy/bin/llvm-ranlib-23"
+      - "/home/nati/.cargo/bin/llvm-ranlib-23"
+      - "/usr/local/sbin/llvm-ranlib-23"
+      - "/usr/local/bin/llvm-ranlib-23"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/llvm-ranlib-23"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib-23"
+      - "/usr/bin/site_perl/llvm-ranlib-23"
+      - "/usr/bin/vendor_perl/llvm-ranlib-23"
+      - "/usr/bin/core_perl/llvm-ranlib-23"
+      - "/opt/rocm/bin/llvm-ranlib-23"
+      - "/home/nati/.opencode/bin/llvm-ranlib-23"
+      - "/opt/android-sdk/platform-tools/llvm-ranlib-23"
+      - "/opt/android-sdk/emulator/llvm-ranlib-23"
+      - "/usr/bin/llvm-ranlib23"
+      - "/home/nati/.local/share/mise/installs/claude/latest/llvm-ranlib23"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/llvm-ranlib23"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/llvm-ranlib23"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/llvm-ranlib23"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/llvm-ranlib23"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/llvm-ranlib23"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/llvm-ranlib23"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/llvm-ranlib23"
+      - "/home/nati/.local/share/mise/shims/llvm-ranlib23"
+      - "/home/nati/flutter/bin/llvm-ranlib23"
+      - "/home/nati/.local/bin/llvm-ranlib23"
+      - "/usr/share/omarchy/bin/llvm-ranlib23"
+      - "/home/nati/.cargo/bin/llvm-ranlib23"
+      - "/usr/local/sbin/llvm-ranlib23"
+      - "/usr/local/bin/llvm-ranlib23"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/llvm-ranlib23"
+      - "/usr/lib/jvm/default/bin/llvm-ranlib23"
+      - "/usr/bin/site_perl/llvm-ranlib23"
+      - "/usr/bin/vendor_perl/llvm-ranlib23"
+      - "/usr/bin/core_perl/llvm-ranlib23"
+      - "/opt/rocm/bin/llvm-ranlib23"
+      - "/home/nati/.opencode/bin/llvm-ranlib23"
+      - "/opt/android-sdk/platform-tools/llvm-ranlib23"
+      - "/opt/android-sdk/emulator/llvm-ranlib23"
+    found: "/usr/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-23.1"
+      - "clang-scan-deps-23"
+      - "clang-scan-deps23"
+      - "clang-scan-deps"
+      - "clang-scan-deps-23.1"
+      - "clang-scan-deps-23"
+      - "clang-scan-deps23"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+    searched_directories:
+      - "/usr/bin/clang-scan-deps-23.1"
+      - "/home/nati/.local/share/mise/installs/claude/latest/clang-scan-deps-23.1"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/clang-scan-deps-23.1"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/clang-scan-deps-23.1"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/clang-scan-deps-23.1"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/clang-scan-deps-23.1"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/clang-scan-deps-23.1"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/clang-scan-deps-23.1"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/clang-scan-deps-23.1"
+      - "/home/nati/.local/share/mise/shims/clang-scan-deps-23.1"
+      - "/home/nati/flutter/bin/clang-scan-deps-23.1"
+      - "/home/nati/.local/bin/clang-scan-deps-23.1"
+      - "/usr/share/omarchy/bin/clang-scan-deps-23.1"
+      - "/home/nati/.cargo/bin/clang-scan-deps-23.1"
+      - "/usr/local/sbin/clang-scan-deps-23.1"
+      - "/usr/local/bin/clang-scan-deps-23.1"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/clang-scan-deps-23.1"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps-23.1"
+      - "/usr/bin/site_perl/clang-scan-deps-23.1"
+      - "/usr/bin/vendor_perl/clang-scan-deps-23.1"
+      - "/usr/bin/core_perl/clang-scan-deps-23.1"
+      - "/opt/rocm/bin/clang-scan-deps-23.1"
+      - "/home/nati/.opencode/bin/clang-scan-deps-23.1"
+      - "/opt/android-sdk/platform-tools/clang-scan-deps-23.1"
+      - "/opt/android-sdk/emulator/clang-scan-deps-23.1"
+      - "/usr/bin/clang-scan-deps-23"
+      - "/home/nati/.local/share/mise/installs/claude/latest/clang-scan-deps-23"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/clang-scan-deps-23"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/clang-scan-deps-23"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/clang-scan-deps-23"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/clang-scan-deps-23"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/clang-scan-deps-23"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/clang-scan-deps-23"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/clang-scan-deps-23"
+      - "/home/nati/.local/share/mise/shims/clang-scan-deps-23"
+      - "/home/nati/flutter/bin/clang-scan-deps-23"
+      - "/home/nati/.local/bin/clang-scan-deps-23"
+      - "/usr/share/omarchy/bin/clang-scan-deps-23"
+      - "/home/nati/.cargo/bin/clang-scan-deps-23"
+      - "/usr/local/sbin/clang-scan-deps-23"
+      - "/usr/local/bin/clang-scan-deps-23"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/clang-scan-deps-23"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps-23"
+      - "/usr/bin/site_perl/clang-scan-deps-23"
+      - "/usr/bin/vendor_perl/clang-scan-deps-23"
+      - "/usr/bin/core_perl/clang-scan-deps-23"
+      - "/opt/rocm/bin/clang-scan-deps-23"
+      - "/home/nati/.opencode/bin/clang-scan-deps-23"
+      - "/opt/android-sdk/platform-tools/clang-scan-deps-23"
+      - "/opt/android-sdk/emulator/clang-scan-deps-23"
+      - "/usr/bin/clang-scan-deps23"
+      - "/home/nati/.local/share/mise/installs/claude/latest/clang-scan-deps23"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/clang-scan-deps23"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/clang-scan-deps23"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/clang-scan-deps23"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/clang-scan-deps23"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/clang-scan-deps23"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/clang-scan-deps23"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/clang-scan-deps23"
+      - "/home/nati/.local/share/mise/shims/clang-scan-deps23"
+      - "/home/nati/flutter/bin/clang-scan-deps23"
+      - "/home/nati/.local/bin/clang-scan-deps23"
+      - "/usr/share/omarchy/bin/clang-scan-deps23"
+      - "/home/nati/.cargo/bin/clang-scan-deps23"
+      - "/usr/local/sbin/clang-scan-deps23"
+      - "/usr/local/bin/clang-scan-deps23"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/clang-scan-deps23"
+      - "/usr/lib/jvm/default/bin/clang-scan-deps23"
+      - "/usr/bin/site_perl/clang-scan-deps23"
+      - "/usr/bin/vendor_perl/clang-scan-deps23"
+      - "/usr/bin/core_perl/clang-scan-deps23"
+      - "/opt/rocm/bin/clang-scan-deps23"
+      - "/home/nati/.opencode/bin/clang-scan-deps23"
+      - "/opt/android-sdk/platform-tools/clang-scan-deps23"
+      - "/opt/android-sdk/emulator/clang-scan-deps23"
+    found: "/usr/bin/clang-scan-deps"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-HEh5Al"
+      binary: "/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-HEh5Al"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-HEh5Al'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_643b3
+        [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 23.1.3
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16
+        Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+        Found HIP installation: /opt/rocm, version 3.5.0
+         (in-process)
+         "/usr/bin/clang-23" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-HEh5Al -v -fcoverage-compilation-dir=/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-HEh5Al -resource-dir /usr/lib/clang/23 -dependency-file CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward -internal-isystem /usr/lib/clang/23/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 23.1.3 based upon LLVM 23.1.3 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward
+         /usr/lib/clang/23/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        [2/2] : && /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_643b3   && :
+        clang version 23.1.3
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16
+        Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+        Found HIP installation: /opt/rocm, version 3.5.0
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_643b3 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/clang/23/lib/x86_64-pc-linux-gnu -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o
+        GNU ld (GNU Binutils) 2.47
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16]
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu]
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward]
+          add: [/usr/lib/clang/23/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16] ==> [/usr/include/c++/16]
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu] ==> [/usr/include/c++/16/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward] ==> [/usr/include/c++/16/backward]
+        collapse include dir [/usr/lib/clang/23/include] ==> [/usr/lib/clang/23/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/16;/usr/include/c++/16/x86_64-pc-linux-gnu;/usr/include/c++/16/backward;/usr/lib/clang/23/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-HEh5Al']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_643b3]
+        ignore line: [[1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 23.1.3]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [Found HIP installation: /opt/rocm  version 3.5.0]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/bin/clang-23" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-HEh5Al -v -fcoverage-compilation-dir=/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-HEh5Al -resource-dir /usr/lib/clang/23 -dependency-file CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward -internal-isystem /usr/lib/clang/23/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 23.1.3 based upon LLVM 23.1.3 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward]
+        ignore line: [ /usr/lib/clang/23/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /usr/bin/clang++  -v -Wl -v CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_643b3   && :]
+        ignore line: [clang version 23.1.3]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [Found HIP installation: /opt/rocm  version 3.5.0]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_643b3 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/clang/23/lib/x86_64-pc-linux-gnu -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_643b3 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/clang/23/lib/x86_64-pc-linux-gnu -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker architecture flags [-m;elf]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_643b3 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/clang/23/lib/x86_64-pc-linux-gnu -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_643b3] ==> ignore
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+          arg [-L/usr/lib/clang/23/lib/x86_64-pc-linux-gnu] ==> dir [/usr/lib/clang/23/lib/x86_64-pc-linux-gnu]
+          arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+          arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_643b3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld -m;elf
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/clang/23/lib/x86_64-pc-linux-gnu] ==> [/usr/lib/clang/23/lib/x86_64-pc-linux-gnu]
+        collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/16]
+        collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o;/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/clang/23/lib/x86_64-pc-linux-gnu;/usr/lib64/gcc/x86_64-pc-linux-gnu/16;/usr/lib64;/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.47
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "flutter/CMakeLists.txt:24 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/nati/.local/share/mise/installs/claude/latest/"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/"
+      - "/home/nati/.local/share/mise/shims/"
+      - "/home/nati/flutter/bin/"
+      - "/home/nati/.local/bin/"
+      - "/usr/share/omarchy/bin/"
+      - "/home/nati/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/android-sdk/cmdline-tools/latest/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/opt/rocm/bin/"
+      - "/home/nati/.opencode/bin/"
+      - "/opt/android-sdk/platform-tools/"
+      - "/opt/android-sdk/emulator/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/nati/.local/share/mise/installs/claude/latest/pkg-config"
+      - "/home/nati/.local/share/mise/installs/claude/latest/pkgconf"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/pkg-config"
+      - "/home/nati/.local/share/mise/installs/codex/latest/bin/pkgconf"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/pkg-config"
+      - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin/pkgconf"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/pkg-config"
+      - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin/pkgconf"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/pkg-config"
+      - "/home/nati/.local/share/mise/installs/go/1.27.3/bin/pkgconf"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/pkg-config"
+      - "/home/nati/.local/share/mise/installs/node/26.5.0/bin/pkgconf"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/pkg-config"
+      - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin/pkgconf"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/pkg-config"
+      - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin/pkgconf"
+      - "/home/nati/.local/share/mise/shims/pkg-config"
+      - "/home/nati/.local/share/mise/shims/pkgconf"
+      - "/home/nati/flutter/bin/pkg-config"
+      - "/home/nati/flutter/bin/pkgconf"
+      - "/home/nati/.local/bin/pkg-config"
+      - "/home/nati/.local/bin/pkgconf"
+      - "/usr/share/omarchy/bin/pkg-config"
+      - "/usr/share/omarchy/bin/pkgconf"
+      - "/home/nati/.cargo/bin/pkg-config"
+      - "/home/nati/.cargo/bin/pkgconf"
+      - "/usr/local/sbin/pkg-config"
+      - "/usr/local/sbin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_gtk-3"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gtk-3"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libgtk-3.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_gdk-3"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gdk-3"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libgdk-3.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_pangocairo-1.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pangocairo-1.0"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libpangocairo-1.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_cairo-gobject"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cairo-gobject"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libcairo-gobject.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_gdk_pixbuf-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gdk_pixbuf-2.0"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libgdk_pixbuf-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_atk-1.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "atk-1.0"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libatk-1.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_pango-1.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pango-1.0"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libpango-1.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_cairo"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cairo"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libcairo.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_harfbuzz"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "harfbuzz"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libharfbuzz.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_gio-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gio-2.0"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libgio-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_gobject-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gobject-2.0"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libgobject-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_glib-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glib-2.0"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libglib-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:25 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GTK_z"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "z"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libz.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:26 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GLIB_glib-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glib-2.0"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libglib-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:27 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GIO_gio-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gio-2.0"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libgio-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:27 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GIO_gobject-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gobject-2.0"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libgobject-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "flutter/CMakeLists.txt:27 (pkg_check_modules)"
+    mode: "library"
+    variable: "pkgcfg_lib_GIO_glib-2.0"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glib-2.0"
+    candidate_directories:
+      - "/usr/lib/"
+    found: "/usr/lib/libglib-2.0.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/nati/.local/share/mise/installs/claude/latest"
+        - "/home/nati/.local/share/mise/installs/codex/latest/bin"
+        - "/home/nati/.local/share/mise/installs/gemini/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/gh/latest/gh_2.103.3_linux_amd64/bin"
+        - "/home/nati/.local/share/mise/installs/go/1.27.3/bin"
+        - "/home/nati/.local/share/mise/installs/node/26.5.0/bin"
+        - "/home/nati/.local/share/mise/installs/npm-playwright/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/installs/opencode/latest/node_modules/.bin"
+        - "/home/nati/.local/share/mise/shims"
+        - "/home/nati/flutter/bin"
+        - "/home/nati/.local/bin"
+        - "/usr/share/omarchy/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/home/nati/.local/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/opt/rocm/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.local/bin"
+        - "/home/nati/flutter/bin"
+        - "/opt/android-sdk/cmdline-tools/latest/bin"
+        - "/home/nati/.opencode/bin"
+        - "/opt/android-sdk/platform-tools"
+        - "/opt/android-sdk/emulator"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+...

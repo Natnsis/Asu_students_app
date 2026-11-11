@@ -1,0 +1,13 @@
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/uni_app
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/shaders/stretch_effect.frag
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/NativeAssetsManifest.json
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/version.json
