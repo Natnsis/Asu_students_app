@@ -8,6 +8,7 @@
 /home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
 /home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/NativeAssetsManifest.json
 /home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
-/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
 /home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
 /home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/nati/Projects/pending/uni/uni_app/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/first.jpg
