@@ -8,8 +8,9 @@ import { StatusBar } from 'expo-status-bar';
 import { useUniwind } from 'uniwind';
 import { useFonts } from 'expo-font';
 
-
 import {
+  Outfit_200ExtraLight,
+  Outfit_300Light,
   Outfit_400Regular,
   Outfit_500Medium,
   Outfit_600SemiBold,
@@ -21,8 +22,9 @@ export {
 } from 'expo-router';
 
 export default function RootLayout() {
-
+  const { theme } = useUniwind();
   const [fontsLoaded] = useFonts({
+    Outfit_300Light,
     Outfit_400Regular,
     Outfit_500Medium,
     Outfit_600SemiBold,
@@ -30,7 +32,6 @@ export default function RootLayout() {
   });
 
   if (!fontsLoaded) return null;
-  const { theme } = useUniwind();
 
   return (
     <ThemeProvider value={NAV_THEME[theme ?? 'light']}>
